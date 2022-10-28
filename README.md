@@ -3,6 +3,10 @@
 ## Description 
 An application based on Express and JS that allows users to write and save notes. 
 
+## Usage
+![Application screen](./assets/screenshot.png)
+[Live Link](https://teedaa.github.io/note-taker/)
+
 ## Languages and Tools Used
 * ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
