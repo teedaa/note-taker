@@ -1,8 +1,12 @@
-const notes = require('express').Router();
+const path = require('path');
+const app = require('./api-routes');
 
-//GET Route for retrieving notes
-
-fb.get('/notes', (req, res) => 
-    readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)))
+app.get('/notes', (req, res) =>
+res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
+app.get('*', (req, res) =>
+res.sendFile(path.join(__dirname, "./public/index.html"))
+);
+
+module.exports = app;
