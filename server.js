@@ -18,6 +18,7 @@ res.sendFile(path.join(__dirname, '/public/notes.html'))
     res.json(dbNotes);
 });
 
+// Write notes
 app.post('/api/notes', (req, res) => {
   
     const { title, text, } = req.body; 
