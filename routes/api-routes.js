@@ -1,9 +1,8 @@
-const express = require('express');
+const db = require('/db/db.json');
+const fs = require('fs');
+const { v4: uuidv4 } = require('uuid');
 
-const notesRouter = require('./notes');
+//GET Route for retrieving notes
+app.get('/api/notes', (req, res) =>
 
-const app = express();
-
-app.use ('/notes', notesRouter);
-
-module.exports = app; 
+)
